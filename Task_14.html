@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pricing Table</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            padding:40px;
+        }
+
+        .plan{
+            border:1px solid #ddd;
+            padding:20px;
+            width:200px;
+            text-align:center;
+            border-radius:10px;
+        }
+
+        .recommended{
+            border:3px solid green;
+            transform:scale(1.05);
+        }
+
+        button{
+            background:green;
+            color:white;
+            border:none;
+            padding:10px 15px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="plan">
+    <h2>Basic</h2>
+    <h3>₹199</h3>
+    <p>1 User</p>
+    <p>5 GB Storage</p>
+    <button>Choose</button>
+</div>
+
+<div class="plan recommended">
+    <h2>Standard</h2>
+    <h3>₹499</h3>
+    <p>5 Users</p>
+    <p>50 GB Storage</p>
+    <button>Choose</button>
+</div>
+
+<div class="plan">
+    <h2>Premium</h2>
+    <h3>₹999</h3>
+    <p>Unlimited Users</p>
+    <p>100 GB Storage</p>
+    <button>Choose</button>
+</div>
+
+</body>
+</html>
